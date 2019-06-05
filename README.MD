@@ -1,10 +1,8 @@
-# Call Center
-
-Se utilizo:
-Java 8
-Maven 4.0
-Eclipse STS (Spring Tool Suite) 4. Se puede usar otro eplise
-Spring Boot 1.5.6
+# Se utilizo:
+* Java 8
+* Maven 4.0
+* Eclipse STS (Spring Tool Suite) 4. Se puede usar otro eplise
+* Spring Boot 1.5.6
 
 ## Solución
 
@@ -28,6 +26,7 @@ La cantidad de llamadas minimas que se crean es 10. Pero se puede elegir otra ca
 La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite #.
  # como se puede ver en los diferentes test.
 
+![alt text](https://github.com/marcelomr7/callcenter/raw/master/src/main/resources/Class.png)
 
 ### TESTS
 
