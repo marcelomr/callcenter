@@ -24,7 +24,7 @@ La cantidad de empleados que se crean siempre es 10. 7 OPERADORES, 2 SUPERVISORE
 La cantidad de recursos/telefonos que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite #.
 La cantidad de llamadas minimas que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite  #.
 La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite #.
- # como se puede ver en los diferentes test.
+* # como se puede ver en los diferentes test.
 
 ![alt text](https://github.com/marcelomr7/callcenter/raw/master/src/main/resources/Class.png)
 
