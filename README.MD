@@ -43,14 +43,12 @@ La codificación se realizo con un mix tanto en español como en ingles.
 
 Cabe aclarar que por defecto:
 * La cantidad de empleados que se crean siempre es 10. 7 OPERADORES, 2 SUPERVISORES y 1 DIRECTOR.
-* La cantidad de recursos/telefonos que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite #.
-* La cantidad de llamadas minimas que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite  #.
-* La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite #.
-* "#" Como se puede ver en los diferentes test.
-* '#' Como se puede ver en los diferentes test.
-* "*" Como se puede ver en los diferentes test.
-* '*' Como se puede ver en los diferentes test.
-### TESTS CREADOS
+* La cantidad de recursos/telefonos que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite '*'.
+* La cantidad de llamadas minimas que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite '*'.
+* La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite '*'.
+* '* Como se puede ver en los diferentes test'.
+
+### Test Creados
 
 test10Llamados : Representa el caso de ejemplo minimo solicitado en la consigna.
 
@@ -64,5 +62,6 @@ testLlamadaSinAtender: Representa el caso en el cual una llamada nunca es atendi
 testPriorizacionDeEmpleados: lleva a cabo la validacion de la prioridad en el orden de atencion de los empleados.
 
 
+##### Diagrama
 
 ![alt text](https://github.com/marcelomr7/callcenter/raw/master/src/main/resources/Class.png)
