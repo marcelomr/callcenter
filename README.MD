@@ -46,8 +46,10 @@ Cabe aclarar que por defecto:
 * La cantidad de recursos/telefonos que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite #.
 * La cantidad de llamadas minimas que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite  #.
 * La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite #.
-"#" Como se puede ver en los diferentes test.
-
+* "#" Como se puede ver en los diferentes test.
+* '#' Como se puede ver en los diferentes test.
+* "*" Como se puede ver en los diferentes test.
+* '*' Como se puede ver en los diferentes test.
 ### TESTS CREADOS
 
 test10Llamados : Representa el caso de ejemplo minimo solicitado en la consigna.
