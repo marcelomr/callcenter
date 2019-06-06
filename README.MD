@@ -7,6 +7,8 @@
 
 # Ambiente
 * Tener configurado java, mvn, y eclipse.
+* Descargar el proyecto de github "callcenter-master.zip"
+* Descomprimir el proyecto y dejarlo con el nombre de "callcenter"
 
 #### Desde eclipse importar el proyecto como "Existing Maven Projects"
 ##### De ser necesario se puede Correr por consola (siempre estando parado dentro del proyecto):
