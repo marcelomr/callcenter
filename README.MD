@@ -1,8 +1,29 @@
 # Se utilizo:
 * Java 8
-* Maven 4.0
-* Eclipse STS (Spring Tool Suite) 4. Se puede usar otro eplise
+* Maven 3.6.1
+* Eclipse STS (Spring Tool Suite) 4.
 * Spring Boot 1.5.6
+* Se puede usar otro eclipse, por ejemplo tambien lo probe con eclipse "201903" que es una de las ultimas versiones.
+
+# Ambiente
+* Tener configurado java, mvn, y eclipse.
+
+#### Desde eclipse importar el proyecto como "Existing Maven Projects"
+* De ser necesario se puede Correr por consola (siempre estando parado dentro del proyecto):
+* mvn clean
+* mvn eclipse:clean
+* mvn eclipse:eclipse
+* mvn compile
+* Hacer un F5 "refresh" sobre el projecto.
+
+#### Pruebas
+* Una vez teniendo el proyecto listo en eclipse, podemos:
+** ejecutar el main CallCenter.java (modo run/debug), esto me va a ejecutar el programa.
+** ejecutar los test desde la clase Tests.java (modo run/debug en JUnit).
+** O correr por consola mvn install (ejecuta los test) ó mvn install -DskipTests dependiendo si quiero ejecutar o no los tests.
+*** Esto me va a generar el JAR dentro de la carpeta "target"
+*** Y asi vamos a poder ejecutar el programa desde la consola con java -jar target/callcenter.-0.0.1-SNAPSHOT.jar
+
 
 ## Solución
 
@@ -11,6 +32,7 @@ Se utilizo la interfaz ExecutorService y PriorityBlockingQueue para:
 * Manejar adecuadamente la concurrencia que ya me brinda java.
 * Tener una correcta priorizacion en el orden de atencion de los empleados, de acuerdo a su tipo.
 * Y que las llamadas queden en espera hasta que algun empleado se libere y pueda atenderla.
+* Podria decirse que con esto estan cubiertos, tanto el caso base principal que se pide, como tambien todos los puntos extras/plus.
 
 #### CallCenter.java
 
@@ -26,7 +48,7 @@ Cabe aclarar que por defecto:
 * La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite #.
 * como se puede ver en los diferentes test.
 
-### TESTS
+### TESTS CREADOS
 
 test10Llamados : Representa el caso de ejemplo minimo solicitado en la consigna.
 
