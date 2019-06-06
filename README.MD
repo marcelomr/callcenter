@@ -9,7 +9,7 @@
 * Tener configurado java, mvn, y eclipse.
 
 #### Desde eclipse importar el proyecto como "Existing Maven Projects"
-* De ser necesario se puede Correr por consola (siempre estando parado dentro del proyecto):
+##### De ser necesario se puede Correr por consola (siempre estando parado dentro del proyecto):
 * mvn clean
 * mvn eclipse:clean
 * mvn eclipse:eclipse
@@ -18,11 +18,11 @@
 
 #### Pruebas
 * Una vez teniendo el proyecto listo en eclipse, podemos:
-** ejecutar el main CallCenter.java (modo run/debug), esto me va a ejecutar el programa.
-** ejecutar los test desde la clase Tests.java (modo run/debug en JUnit).
-** O correr por consola mvn install (ejecuta los test) ó mvn install -DskipTests dependiendo si quiero ejecutar o no los tests.
-*** Esto me va a generar el JAR dentro de la carpeta "target"
-*** Y asi vamos a poder ejecutar el programa desde la consola con java -jar target/callcenter.-0.0.1-SNAPSHOT.jar
+* * ejecutar el main CallCenter.java (modo run/debug), esto me va a ejecutar el programa.
+* * ejecutar los test desde la clase Tests.java (modo run/debug en JUnit).
+* * O correr por consola mvn install (ejecuta los test) ó mvn install -DskipTests dependiendo si quiero ejecutar o no los tests.
+* * * Esto me va a generar el JAR dentro de la carpeta "target"
+* * * Y asi vamos a poder ejecutar el programa desde la consola con java -jar target/callcenter.-0.0.1-SNAPSHOT.jar
 
 
 ## Solución
