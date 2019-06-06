@@ -17,12 +17,12 @@
 * Hacer un F5 "refresh" sobre el projecto.
 
 #### Pruebas
-* Una vez teniendo el proyecto listo en eclipse, podemos:
-* * ejecutar el main CallCenter.java (modo run/debug), esto me va a ejecutar el programa.
-* * ejecutar los test desde la clase Tests.java (modo run/debug en JUnit).
-* * O correr por consola mvn install (ejecuta los test) ó mvn install -DskipTests dependiendo si quiero ejecutar o no los tests.
-* * * Esto me va a generar el JAR dentro de la carpeta "target"
-* * * Y asi vamos a poder ejecutar el programa desde la consola con java -jar target/callcenter.-0.0.1-SNAPSHOT.jar
+##### Una vez teniendo el proyecto listo en eclipse, podemos:
+* ejecutar el main CallCenter.java (modo run/debug), esto me va a ejecutar el programa.
+* ejecutar los test desde la clase Tests.java (modo run/debug en JUnit).
+* O correr por consola mvn install (ejecuta los test) ó mvn install -DskipTests dependiendo si quiero ejecutar o no los tests.
+* * Esto me va a generar el JAR dentro de la carpeta "target"
+* * Y asi vamos a poder ejecutar el programa desde la consola con java -jar target/callcenter.-0.0.1-SNAPSHOT.jar
 
 
 ## Solución
@@ -46,7 +46,7 @@ Cabe aclarar que por defecto:
 * La cantidad de recursos/telefonos que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite #.
 * La cantidad de llamadas minimas que se crean es 10. Pero se puede elegir otra cantidad en particular, segun se necesite  #.
 * La duracion de las llamadas es aleatoria entre 5 y 10. Pero se puede elegir otra duración en particular, segun se necesite #.
-* como se puede ver en los diferentes test.
+* "#"como se puede ver en los diferentes test.
 
 ### TESTS CREADOS
 
